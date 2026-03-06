@@ -135,13 +135,13 @@ cd ecommerce-microservice
 ### Step 3: Build the project
 
 ```
-mvn clean install
+gradle clean build
 ```
 
 ### Step 4: Run the application
 
 ```
-mvn spring-boot:run
+gradle bootrun
 ```
 
 Application will start at:
